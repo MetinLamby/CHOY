@@ -1,1 +1,39 @@
 // Specific CSS for your home-page
+
+input,label {
+  float:left;
+  margin:5px;
+}
+
+.form-login {
+  background: white;
+  padding: 20px 20px;
+  margin-top: 50px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+  h2 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .btn {
+    width: 100%;
+    margin-bottom: 20px
+  }
+}
+
+.btn-ghost {
+  color: black;
+  border: 1px solid black;
+  padding: 8px 24px;
+  border-radius: 5px;
+  font-weight: lighter;
+  //opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+.container-row {
+  align-items: center;
+  justify-content: space-around;
+}
