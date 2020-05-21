@@ -8,8 +8,6 @@ input,label {
 .form-login {
   background: white;
   padding: 20px 20px;
-  margin-top: 50px;
-  border-radius: 3px;
   box-shadow: 0 0 8px rgba(0,0,0,0.2);
   h2 {
     font-size: 25px;
@@ -33,7 +31,7 @@ input,label {
 
 .img-style {
   display: grid;
-  width: 100vw;
+  width: 100%;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
@@ -48,7 +46,7 @@ input,label {
 }
 
 .mission {
-  background-color: black;
+  background-color: #2B303D;
   text-align: center;
   padding: 30px;
   margin-bottom: 20px;
@@ -62,7 +60,7 @@ input,label {
 }
 
 .idea-desc {
-  margin: 50px;
+  margin: 40px;
   margin-bottom: 70px !important;
   margin-top: 30px !important;
   p {
@@ -117,7 +115,8 @@ input,label {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
-  margin: 50px;
+  margin: 45px;
+  margin-top: 30px !important;
 }
 
 .card-category {
@@ -194,7 +193,7 @@ input,label {
 
 .idea-div-intro {
   width: 100%;
-  margin-top: 70px;
+  margin-top: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
