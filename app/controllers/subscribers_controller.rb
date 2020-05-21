@@ -5,8 +5,11 @@ class SubscribersController < ApplicationController
 
   def create
     @subscriber = Subscriber.new(restaurant_params)
-    @subscriber.save
-    redirect_to root_path
+    if @subscriber.save
+      redirect_to root_path
+    else
+      render :new
+    end
   end
 
   private
