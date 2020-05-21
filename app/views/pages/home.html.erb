@@ -4,32 +4,11 @@
 </div>
 
 
-<div class="introduction">
-  <h4>Shopping doesn’t have to be hard.</h4>
-  <h4>We make it easy.</h4>
+<div class="banner-two">
+  <h3>Make better shopping choices.</h3>
+  <p>Filter, Compare Two Products, Choose Your Fit, Order In-App.</p>
+  <a class="subscribe-btn" href="#subscribe-div">Subscribe</a>
 </div>
-
-<div class="cards">
-  <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/breakfast.jpg)">
-    Elimination of choice overload
-  </div>
-
-  <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/lunch.jpg)">
-    Customizable experience
-  </div>
-
-  <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/dinner.jpg)">
-    Support sustainable and small brands
-  </div>
-</div>
-
-
-
-
-<h3 class="search-title">
-  New
-  <span id="banner-typed-text"></span>
-</h3>
 
 
 <div class="idea-div-intro">
@@ -39,12 +18,48 @@
 
 
 
+<div class="mission">
+  <h4 class="search-title">
+    New
+    <span id="banner-typed-text"></span>
+  </h4>
+</div>
+
+
+<div class="cards-back">
+  <div class="idea-div-intro">
+    <p class="text">Benefits</p>
+    <hr/>
+  </div>
+  <div class="cards">
+    <div class="card-category">
+      <i class="fas fa-brain"></i>
+      <p class="desc-head">Easy decisions</p>
+      <p>Compare two products – not hundreds. Forget the pain of choice overload.</p>
+    </div>
+    <div class="card-category">
+      <i class="fas fa-code"></i>
+      <p class="desc-head">Customizable experience</p>
+      <p>Supported by our machine learning algorithm you will only see products you want to see.</p>
+    </div>
+    <div class="card-category">
+      <i class="fas fa-globe-europe"></i>
+      <p class="desc-head">Support sustainability</p>
+      <p>Pick from unique upcoming brands that engage in sustainability activities.</p>
+    </div>
+  </div>
+</div>
+
+<div class="idea-div-intro">
+  <p class="text">Subscription</p>
+  <hr/>
+</div>
 
 
 <div id="subscribe-div" class="container container-form">
   <div class="row container-row">
     <div class="col-xs-12 col-sm-4 col-sm-offset-4 form-login">
-      <h2>Subscribe</h2>
+      <h2>Subscribe for news</h2>
       <%= simple_form_for @subscriber do |f| %>
       <div class="form-inputs">
        <%= f.error :base %>
