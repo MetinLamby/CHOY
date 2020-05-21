@@ -31,8 +31,24 @@ input,label {
   padding-right: 90px !important;
 }
 
+.img-style {
+  display: grid;
+  width: 100vw;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.flow-img {
+  height: auto;
+  width: 100%;
+}
+
+.like-img {
+  width: 100%;
+  height: auto;
+}
+
 .mission {
-  background-color: #2D3A3A;
+  background-color: black;
   text-align: center;
   padding: 30px;
   margin-bottom: 20px;
@@ -42,6 +58,21 @@ input,label {
     margin-top: 10px;
     color: white;
     font-weight: lighter;
+  }
+}
+
+.idea-desc {
+  margin: 50px;
+  margin-bottom: 70px !important;
+  margin-top: 30px !important;
+  p {
+    text-align: center;
+  }
+  .desc-head {
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: x-large;
   }
 }
 
@@ -99,18 +130,23 @@ input,label {
     font-weight: bolder;
     margin-top: 10px;
     margin-bottom: 10px;
+    font-size: x-large;
   }
   p {
     text-align: center;
   }
   i {
     font-size: 55px;
+    color: #CDCDCD;
   }
 }
 
 // Smallest device
 @media (min-width: 100px) and (max-width: 575px) {
   .cards {
+    grid-template-columns: 1fr;
+  }
+  .img-style {
     grid-template-columns: 1fr;
   }
 }
@@ -120,11 +156,17 @@ input,label {
   .cards {
     grid-template-columns: 1fr;
   }
+  .img-style {
+    grid-template-columns: 1fr;
+  }
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
   .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+  .img-style {
     grid-template-columns: 1fr 1fr;
   }
 }
@@ -134,6 +176,9 @@ input,label {
   .cards {
     grid-template-columns: 1fr 1fr 1fr;
   }
+  .img-style {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 // Extra large devices (large desktops, 1200px and up)
@@ -141,11 +186,15 @@ input,label {
   .cards {
     grid-template-columns: 1fr 1fr 1fr;
   }
+  .img-style {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 
 .idea-div-intro {
   width: 100%;
+  margin-top: 70px;
   display: flex;
   align-items: center;
   justify-content: center;
