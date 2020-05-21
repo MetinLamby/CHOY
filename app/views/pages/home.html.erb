@@ -19,8 +19,6 @@
   <p>Ever had so many options in front of you, that any decision felt like the wrong one? We did. Now you can do online shopping more efficiently and have fun doing it. We enable <strong>easy shopping through easy decision making</strong>.</p>
 </div>
 
-
-
 <div class="mission">
   <h4 class="search-title">
     New
@@ -55,7 +53,8 @@
 
 
 <%#= image_tag('LikedScreen.png', class:"like-img") %>
-<%= video_tag "SplashAnimated.mp4", :autoplay => true, :loop => true, class:"like-img" %>
+<%#= video_tag "SplashAnimated.mp4", :autoplay => true, :loop => true, class:"like-img" %>
+<%= video_tag(["SplashAnimated.mp4"], :autoplay => true, :loop => true , class:"like-img") %>
 
 
 
@@ -75,6 +74,9 @@
   </div>
 </div>
 </div>
+
+
+
 
 
 
