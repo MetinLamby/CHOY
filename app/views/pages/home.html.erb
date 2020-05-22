@@ -85,14 +85,20 @@
   </div>
 </div>
 
-<%#= video_tag(["SplashAnimated.mp4"], :autoplay => true, :loop => true , class:"like-img") %>
-
-<video controls class="like-img" loop autoplay>
-  <source src="/assets/SplashAnimated.mp4" type="video/mp4" >
-  </video>
+<%= video_tag(["SplashAnimated.mp4"], :autoplay => true, :loop => true , class:"like-img") %>
 
 
-  <%= render 'subscribers/form' %>
+<div class="idea-div-intro">
+    <p class="text">Subscribe</p>
+    <hr/>
+</div>
+
+    <div class="subscribe-btn-text">
+      <i class="fas fa-envelope"></i>
+      <p class="desc-head">Be the first to know more</p>
+      <p>Want to test the beta version of CHOY? We'll notify you when we have news for you.</p>
+      <%= link_to "Subscribe", subscribers_new_path , class: "btn btn-ghost" %>
+    </div>
 
 
 

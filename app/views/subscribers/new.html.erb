@@ -1,5 +1,19 @@
-<%= form_for(@subscriber) do |f| %>
-  <%= f.label :email %>
-  <%= f.text_field :email %>
-  <%= f.submit %>
-<% end %>
+<div id="subscribe-div" class="container container-form">
+  <div class="row container-row">
+    <div class="col-xs-12 col-sm-4 col-sm-offset-4 form-login">
+      <h2>Subscribe for news</h2>
+      <%= simple_form_for @subscriber do |f| %>
+      <div class="form-inputs">
+       <%= f.error :base %>
+       <%= f.input :email, required: false, autofocus: true, placeholder: "bob@gmail.com" %>
+     </div>
+     <div class="form-actions">
+      <%= f.button :submit, "Subscribe", class: "btn btn-ghost" %>
+    </div>
+    <% end %>
+  </div>
+</div>
+</div>
+
+<%= image_tag('DetailScreen.png', class:"like-img") %>
+
