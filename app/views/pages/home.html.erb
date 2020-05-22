@@ -1,6 +1,12 @@
 
 <div id="banner">
-  <h1 class="banner-text">CHOY</h1>
+  <a href="#yourAnchor"><h1 class="banner-text">CHOY</h1></a>
+</div>
+
+<p id="yourAnchor">anchor</p>
+
+<div class="mission-two">
+  <h4>Mobile web fashion store</h4>
 </div>
 
 <div class="img-style">
@@ -17,16 +23,16 @@
 <div class="margin-con">
   <div class="idea-desc">
     <p class="desc-head">Easy decisions</p>
-    <p>Ever had so many options in front of you, that any decision felt like the wrong one? We did. Now you can do online shopping more efficiently and have fun doing it. We enable <strong>easy shopping through easy decision making</strong>.</p>
+    <p>Have you ever been faced with too many options, that every decision felt like the wrong one? With CHOY, you will be presented with less, but more relevant options specifically tailored to you. We make <strong>shopping better through easy decision making</strong>.</p>
   </div>
 </div>
 
 
 <div class="mission">
-  <h2 class="search-title">
+  <h3 class="search-title">
     New
     <span id="banner-typed-text"></span>
-  </h2>
+  </h3>
 </div>
 
 
@@ -39,8 +45,8 @@
   <div class="cards">
     <div class="card-category">
       <i class="fas fa-brain"></i>
-      <p class="desc-head">Easy decisions</p>
-      <p>Compare two products – not hundreds. Forget the pain of choice overload.</p>
+      <p class="desc-head">Better decisions</p>
+      <p>Compare two products – not hundreds. Forget the pain of too many choices.</p>
     </div>
     <div class="card-category">
       <i class="fas fa-code"></i>
@@ -50,7 +56,7 @@
     <div class="card-category">
       <i class="fas fa-globe-europe"></i>
       <p class="desc-head">Support sustainability</p>
-      <p>Pick from unique upcoming brands that engage in sustainability activities.</p>
+      <p>Pick from unique upcoming brands that follow a sustainable mission.</p>
     </div>
   </div>
 </div>
@@ -63,6 +69,11 @@
   <p class="text">How it works</p>
   <hr/>
 </div>
+
+<p style="text-align: center; margin: 20px 50px;">Filter, Compare Two Products, Choose Your Fit, Order In-App</p>
+
+
+
 <%= image_tag('flow.png', class:"like-img") %>
 
 <div class="cards-back margin-con">
@@ -70,7 +81,7 @@
     <div class="card-category">
       <h1 style="color: #CDCDCD">1</h1>
       <p class="desc-head">Top or bottom?</p>
-      <p>You are given two products only. Over and over again. Just ask yourself which one do I like better, top or bottom?</p>
+      <p>You are given two products only. Over and over again. Just ask yourself which one you like better and <strong>MAKE A CHOYCE</strong>.</p>
     </div>
     <div class="card-category">
       <h1 style="color: #CDCDCD">2</h1>
@@ -85,7 +96,7 @@
   </div>
 </div>
 
-<%= video_tag(["SplashAnimated.mp4"], :autoplay => true, :loop => true , class:"like-img") %>
+<%= video_tag(["SplashAnimated-2.mp4"], :autoplay => true, :loop => true , class:"like-img") %>
 
 
 <div class="idea-div-intro">
@@ -95,8 +106,8 @@
 
     <div class="subscribe-btn-text">
       <i class="fas fa-envelope"></i>
-      <p class="desc-head">Beta version</p>
-      <p>Want to test the beta version of CHOY? Let's get in touch. We'll notify you when we have news for you.</p>
+      <p class="desc-head">News for You</p>
+      <p>Join us shaping the new normal of online shopping. We'll notify you when we have news for you.</p>
       <%= link_to "Subscribe", subscribers_new_path , class: "btn btn-ghost" %>
     </div>
 

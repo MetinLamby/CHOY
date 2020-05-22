@@ -5,6 +5,28 @@ input,label {
   margin:5px;
 }
 
+#yourAnchor {
+  visibility: hidden;
+  margin-bottom: 0px;
+  color: black;
+}
+
+#yourAnchor:hover {
+  text-decoration: none;
+}
+
+#yourAnchor:link {
+  text-decoration: none;
+}
+
+#yourAnchor:visited {
+  text-decoration: none;
+}
+
+#yourAnchor:active {
+  text-decoration: none;
+}
+
 .form-login {
   background: white;
   padding: 20px 20px;
@@ -54,7 +76,25 @@ input,label {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  h2 {
+  h3 {
+    //font-family: 'Playfair Display', serif;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: white;
+    font-weight: lighter;
+  }
+}
+
+.mission-two {
+  background-color: black;
+  text-align: center;
+  padding: 30px;
+  height: 130px;
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: space-around;
+  h4 {
     //font-family: 'Playfair Display', serif;
     margin-bottom: 10px;
     margin-top: 10px;
@@ -156,7 +196,7 @@ input,label {
     margin: 0px;
   }
   #subscribe-div {
-    margin-top: 120px;
+    margin-top: 140px;
     margin-bottom: 20px;
   }
 }

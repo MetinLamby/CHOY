@@ -6,7 +6,25 @@
   .banner-text {
     border: 3px solid black;
     padding: 20px 30px;
+    text-decoration: none;
+  }
+  a  {
+  color: black;
   }
 }
 
+.banner-text:hover {
+  text-decoration: none;
+}
 
+.banner-text:link {
+  text-decoration: none;
+}
+
+.banner-text:visited {
+  text-decoration: none;
+}
+
+.banner-text:active {
+  text-decoration: none;
+}
