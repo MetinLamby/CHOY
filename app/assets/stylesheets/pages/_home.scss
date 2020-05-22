@@ -8,7 +8,7 @@ input,label {
 .form-login {
   background: white;
   padding: 20px 20px;
-  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+  //box-shadow: 0 0 8px rgba(0,0,0,0.2);
   h2 {
     font-size: 25px;
     font-weight: bold;
@@ -46,11 +46,15 @@ input,label {
 }
 
 .mission {
-  background-color: #2B303D;
+  background-color: black;
   text-align: center;
   padding: 30px;
   margin-bottom: 20px;
-  h4 {
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  h2 {
     //font-family: 'Playfair Display', serif;
     margin-bottom: 10px;
     margin-top: 10px;
@@ -148,6 +152,13 @@ input,label {
   .img-style {
     grid-template-columns: 1fr;
   }
+  .margin-con {
+    margin: 0px;
+  }
+  #subscribe-div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 }
 
 // Small devices (landscape phones, 576px and up)
@@ -157,6 +168,9 @@ input,label {
   }
   .img-style {
     grid-template-columns: 1fr;
+  }
+  .margin-con {
+    margin: 0px;
   }
 }
 
@@ -168,6 +182,13 @@ input,label {
   .img-style {
     grid-template-columns: 1fr 1fr;
   }
+  #subscribe-div {
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+  .margin-con {
+    margin: 80px 80px;
+  }
 }
 
 // Large devices (desktops, 992px and up)
@@ -178,6 +199,9 @@ input,label {
   .img-style {
     grid-template-columns: 1fr 1fr;
   }
+  .margin-con {
+    margin: 80px 100px;
+  }
 }
 
 // Extra large devices (large desktops, 1200px and up)
@@ -187,6 +211,9 @@ input,label {
   }
   .img-style {
     grid-template-columns: 1fr 1fr;
+  }
+  .margin-con {
+    margin: 80px 150px;
   }
 }
 
@@ -212,6 +239,12 @@ input,label {
 }
 
 .container-row {
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container-row {
+  display: flex;
   align-items: center;
   justify-content: space-around;
 }

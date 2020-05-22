@@ -14,24 +14,28 @@
   <hr/>
 </div>
 
-<div class="idea-desc">
-  <p class="desc-head">Easy decisions</p>
-  <p>Ever had so many options in front of you, that any decision felt like the wrong one? We did. Now you can do online shopping more efficiently and have fun doing it. We enable <strong>easy shopping through easy decision making</strong>.</p>
+<div class="margin-con">
+  <div class="idea-desc">
+    <p class="desc-head">Easy decisions</p>
+    <p>Ever had so many options in front of you, that any decision felt like the wrong one? We did. Now you can do online shopping more efficiently and have fun doing it. We enable <strong>easy shopping through easy decision making</strong>.</p>
+  </div>
 </div>
+
 
 <div class="mission">
-  <h4 class="search-title">
+  <h2 class="search-title">
     New
     <span id="banner-typed-text"></span>
-  </h4>
+  </h2>
 </div>
 
 
-<div class="cards-back">
-  <div class="idea-div-intro">
+<div class="idea-div-intro">
     <p class="text">Benefits</p>
     <hr/>
   </div>
+
+<div class="cards-back margin-con">
   <div class="cards">
     <div class="card-category">
       <i class="fas fa-brain"></i>
@@ -52,28 +56,43 @@
 </div>
 
 
+
 <%#= image_tag('LikedScreen.png', class:"like-img") %>
 <%#= video_tag "SplashAnimated.mp4", :autoplay => true, :loop => true, class:"like-img" %>
-<%= video_tag(["SplashAnimated.mp4"], :autoplay => true, :loop => true , class:"like-img") %>
+<div class="idea-div-intro">
+  <p class="text">How it works</p>
+  <hr/>
+</div>
+<%= image_tag('flow.png', class:"like-img") %>
 
-
-
-<div id="subscribe-div" class="container container-form">
-  <div class="row container-row">
-    <div class="col-xs-12 col-sm-4 col-sm-offset-4 form-login">
-      <h2>Subscribe for news</h2>
-      <%= simple_form_for @subscriber do |f| %>
-      <div class="form-inputs">
-       <%= f.error :base %>
-       <%= f.input :email, required: false, autofocus: true, placeholder: "bob@gmail.com" %>
-     </div>
-     <div class="form-actions">
-      <%= f.button :submit, "Subscribe", class: "btn btn-ghost" %>
+<div class="cards-back margin-con">
+  <div class="cards">
+    <div class="card-category">
+      <h1 style="color: #CDCDCD">1</h1>
+      <p class="desc-head">Top or bottom?</p>
+      <p>You are given two products only. Over and over again. Just ask yourself which one do I like better, top or bottom?</p>
     </div>
-    <% end %>
+    <div class="card-category">
+      <h1 style="color: #CDCDCD">2</h1>
+      <p class="desc-head">Liked items</p>
+      <p>Swipe the items you liked to the right and those you don't like to the left. Look through your liked items and add them to your shopping bag.</p>
+    </div>
+    <div class="card-category">
+      <h1 style="color: #CDCDCD">3</h1>
+      <p class="desc-head">Checkout</p>
+      <p>Purchase the items you liked and added to your shopping cart. Quick and easy.</p>
+    </div>
   </div>
 </div>
-</div>
+
+<%#= video_tag(["SplashAnimated.mp4"], :autoplay => true, :loop => true , class:"like-img") %>
+
+<video controls class="like-img" loop autoplay>
+  <source src="/assets/SplashAnimated.mp4" type="video/mp4" >
+  </video>
+
+
+  <%= render 'subscribers/form' %>
 
 
 
