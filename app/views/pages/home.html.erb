@@ -37,9 +37,9 @@
 
 
 <div class="idea-div-intro">
-    <p class="text">Benefits</p>
-    <hr/>
-  </div>
+  <p class="text">Benefits</p>
+  <hr/>
+</div>
 
 <div class="cards-back margin-con">
   <div class="cards">
@@ -70,7 +70,7 @@
   <hr/>
 </div>
 
-<p style="text-align: center; margin: 20px 50px;">Filter, Compare Two Products, Choose Your Fit, Order In-App</p>
+<p style="text-align: center; margin: 20px 50px;">Filter, Compare Two Products, Choose Your Fit, Order In-App.</p>
 
 
 
@@ -96,23 +96,19 @@
   </div>
 </div>
 
-<%#= video_tag(["SplashAnimated-2.mp4"], :autoplay => true, :loop => true , class:"like-img") %>
-
-<video class="like-img" autoplay loop>
-    <source src="/assets/SplashAnimated-2.mp4" type="video/mp4">
-</video>
+<%= video_tag(["SplashAnimated-2.mp4"], :autoplay => true, :loop => true , class:"like-img") %>
 
 <div class="idea-div-intro">
-    <p class="text">Subscribe</p>
-    <hr/>
+  <p class="text">Subscribe</p>
+  <hr/>
 </div>
 
-    <div class="subscribe-btn-text">
-      <i class="fas fa-envelope"></i>
-      <p class="desc-head">News for You</p>
-      <p>Join us shaping the new normal of online shopping. We'll notify you when we have news for you.</p>
-      <%= link_to "Subscribe", subscribers_new_path , class: "btn btn-ghost" %>
-    </div>
+<div class="subscribe-btn-text">
+  <i class="fas fa-envelope"></i>
+  <p class="desc-head">News for You</p>
+  <p>Join us shaping the new normal of online shopping. We'll notify you when we have news for you.</p>
+  <%= link_to "Subscribe", subscribers_new_path , class: "btn btn-ghost" %>
+</div>
 
 
 
