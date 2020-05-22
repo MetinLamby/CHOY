@@ -96,8 +96,11 @@
   </div>
 </div>
 
-<%= video_tag(["SplashAnimated-2.mp4"], :autoplay => true, :loop => true , class:"like-img") %>
+<%#= video_tag(["SplashAnimated-2.mp4"], :autoplay => true, :loop => true , class:"like-img") %>
 
+<video class="like-img" autoplay loop>
+    <source src="/assets/SplashAnimated-2.mp4" type="video/mp4">
+</video>
 
 <div class="idea-div-intro">
     <p class="text">Subscribe</p>
