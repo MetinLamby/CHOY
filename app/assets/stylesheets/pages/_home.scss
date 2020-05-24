@@ -313,7 +313,23 @@ input,label {
 }
 
 
-
+#instructions-page {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  .idea-desc {
+    margin: 40px;
+    margin-bottom: 0px !important;
+    margin-top: 30px !important;
+  }
+  #desc-head-instructions {
+    margin-bottom: 50px;
+  }
+  .subscribe-btn-text {
+    margin-bottom: 0px !important;
+  }
+}
 
 
 
