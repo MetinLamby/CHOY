@@ -197,7 +197,7 @@ input,label {
     margin: 0px;
   }
   #subscribe-div {
-    margin-top: 140px;
+    margin-top: 100px;
     margin-bottom: 20px;
   }
 }
@@ -230,9 +230,6 @@ input,label {
   .margin-con {
     margin: 80px 80px;
   }
-  #instructions {
-    height: 100vh;
-  }
 }
 
 // Large devices (desktops, 992px and up)
@@ -246,9 +243,6 @@ input,label {
   .margin-con {
     margin: 80px 100px;
   }
-  #instructions {
-    height: 100vh;
-  }
 }
 
 // Extra large devices (large desktops, 1200px and up)
@@ -261,9 +255,6 @@ input,label {
   }
   .margin-con {
     margin: 80px 150px;
-  }
-  #instructions {
-    height: 100vh;
   }
 }
 

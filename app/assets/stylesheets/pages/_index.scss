@@ -1,5 +1,6 @@
 // Import page-specific CSS files here.
 @import "home";
+@import "about";
 
 body {
   background-color: white;
@@ -11,7 +12,7 @@ html {
 }
 
 a:hover {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 a:link {
