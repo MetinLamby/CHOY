@@ -10,7 +10,7 @@
   width: 65vw !important;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 0 10px #000D19;
+  box-shadow: 0 0 10px lightgrey;
   border-radius: 5px;
 }
 
@@ -85,7 +85,7 @@
       color: grey;
     }
     .person-desc {
-      font-size: 16px;
+      font-size: smaller;
     }
   }
 }
